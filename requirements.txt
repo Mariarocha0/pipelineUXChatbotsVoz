@@ -1,0 +1,11 @@
+# Requisitos do pipeline VoiceUX
+
+librosa==0.10.0.post2
+numpy==1.26.4
+scikit-learn==1.4.2
+torch==2.2.2
+transformers==4.40.0
+matplotlib==3.8.2
+pyAudioAnalysis==0.3.14
+soundfile==0.12.1
+tqdm==4.66.4

@@ -1,0 +1,38 @@
+# venv
+.venv/
+venv/
+
+# Áudios brutos
+voiceux/data/raw_audio/
+*.m4a
+*.wav
+*.mp3
+
+# Arquivos binários pesados
+*.pt
+*.bin
+
+# Cache e modelos baixados
+__pycache__/
+*.cache
+*.egg-info/
+.cache/
+
+# Modelos do HuggingFace
+~/.cache/huggingface/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Pastas de saída
+outputs/
+reports/
+*.html
+
+# VSCode
+.vscode/
+
+# Relatórios HTML (não enviar para o GitHub)
+reports/
+*.html
